@@ -142,7 +142,7 @@ void moveForward()
 
 		TA0CCTL1 |= OUTMOD_7;
 
-		__delay_cycles(100000);
+		__delay_cycles(1000);
 
 		resetAll();
 
