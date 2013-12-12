@@ -136,7 +136,7 @@ void moveForward()
 		resetAll();
 
 		TA1CCR1 = 40;
-		TA0CCR1 = 50; // sets duty cycle
+		TA0CCR1 = 55; // sets duty cycle
 
 		TA1CCTL1 |= OUTMOD_7;
 
