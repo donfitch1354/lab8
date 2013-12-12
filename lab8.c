@@ -1,5 +1,5 @@
 /*
- * lab8.c
+ * lab7.c
  *
  *  Created on: Dec 10, 2013
  *      Author: C14Ethan.Snyder
@@ -107,7 +107,7 @@ void turnRightWide()
 		TA0CCTL0 |= OUTMOD_7;
 
 		TA1CCTL1 |= OUTMOD_7;
-		__delay_cycles(120000);
+		__delay_cycles(12000);
 
 		resetAll();
 
@@ -142,7 +142,7 @@ void moveForward()
 
 		TA0CCTL1 |= OUTMOD_7;
 
-		__delay_cycles(1000);
+		__delay_cycles(10000);
 
 		resetAll();
 
